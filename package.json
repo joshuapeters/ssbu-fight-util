@@ -1,0 +1,11 @@
+{
+  "name": "ssbu-tracker",
+  "version": "1.0.0",
+  "description": "ssbu match tracking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "JP",
+  "license": "ISC"
+}
