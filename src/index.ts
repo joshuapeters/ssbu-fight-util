@@ -1,11 +1,8 @@
-import app from './App'
+import App from './03_presentation/App';
 
-const port = process.env.PORT || 3000
+var app = new App();
+var port = parseInt(process.env.PORT) || 3000;
 
-app.listen(port, (err) => {
-    if (err) {
-        return console.log(err)
-    }
-
-    return console.log(`server is listening on ${port}`)
-})
+app
+    .initialize()
+    .start(port);
